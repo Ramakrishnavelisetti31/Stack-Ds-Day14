@@ -37,4 +37,9 @@ public class Operation {
         System.out.println("");
         stackList.peek();
     }
+
+    public void dequeueElement(){
+        queueElement();
+        pop();
+    }
 }
